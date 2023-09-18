@@ -54,6 +54,7 @@ void display()
         cout << temp->data << " ";
         temp = temp->next;
     }
+    cout << endl;
 }
 
 int main()
@@ -85,7 +86,7 @@ int main()
             display();
             break;
         case 5:
-            exit(0);
+            return 0;
         default:
             cout << "Invalid Choice" << endl;
         }
